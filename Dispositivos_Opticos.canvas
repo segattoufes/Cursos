@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"1fdf78d3967db7d8","type":"text","text":"Dispositivos Ópticos (Fotônicos)","x":-540,"y":60,"width":300,"height":60,"color":"#0a2ddb"},
+		{"id":"a302e06565ea4cc7","type":"text","text":"   Fibras","x":-780,"y":200,"width":115,"height":60,"color":"#0a2ddb"},
+		{"id":"1a3ad552d46841a8","type":"text","text":"   Guias","x":-220,"y":200,"width":115,"height":60,"color":"#0a2ddb"},
+		{"id":"7e9e2fa0ec995e05","type":"text","text":"Ativos","x":-422,"y":304,"width":142,"height":60},
+		{"id":"a908e02fc658db25","type":"text","text":"Chaves","x":-220,"y":490,"width":136,"height":60},
+		{"id":"5b0d6a7e354c2caf","type":"text","text":"Passivos","x":20,"y":320,"width":140,"height":60},
+		{"id":"d8127094ad8e16e6","type":"text","text":"Mux/Demux","x":20,"y":420,"width":164,"height":60},
+		{"id":"5d49ece5f87b6edb","type":"text","text":"Filtros","x":20,"y":535,"width":110,"height":60},
+		{"id":"4fe18ab577f446cf","type":"text","text":"Moduladores","x":-234,"y":370,"width":164,"height":60},
+		{"id":"03edd9abf60ec4f4","type":"text","text":"LED","x":-470,"y":400,"width":102,"height":60},
+		{"id":"c956e658599906d0","type":"text","text":"Laser","x":-470,"y":475,"width":102,"height":60},
+		{"id":"d4be11f95f68c4f8","type":"text","text":"Fotodetectores","x":-470,"y":550,"width":176,"height":60},
+		{"id":"f3e2859e2fd08015","type":"text","text":"Acopladores","x":-865,"y":310,"width":171,"height":60},
+		{"id":"9aeb14bf5c40c400","type":"text","text":"Filtros","x":-863,"y":390,"width":110,"height":60},
+		{"id":"1ab9e659ece58998","type":"text","text":"Amplificadores","x":-865,"y":470,"width":176,"height":60},
+		{"id":"046bb77a2becbc3f","type":"text","text":"Fibras\nespeciais","x":-865,"y":570,"width":152,"height":60},
+		{"id":"0bad33ca1edd4363","type":"text","text":"Dispositivos Ópticos (Fotônicos)","x":-863,"y":1120,"width":223,"height":60,"color":"#0a2ddb"},
+		{"id":"e64e82114a53635d","type":"text","text":"   Fibras","x":-440,"y":1000,"width":115,"height":60,"color":"#0a2ddb"},
+		{"id":"f56ea4a6f4793435","type":"text","text":"   Guias","x":-440,"y":1200,"width":115,"height":60,"color":"#0a2ddb"}
+	],
+	"edges":[
+		{"id":"6af8341e536df99b","fromNode":"1fdf78d3967db7d8","fromSide":"bottom","toNode":"a302e06565ea4cc7","toSide":"top"},
+		{"id":"69bcfb5ee9e4f00e","fromNode":"1fdf78d3967db7d8","fromSide":"bottom","toNode":"1a3ad552d46841a8","toSide":"top"},
+		{"id":"7834cff245948383","fromNode":"1a3ad552d46841a8","fromSide":"bottom","toNode":"7e9e2fa0ec995e05","toSide":"right"},
+		{"id":"aac3f0e5377d0e91","fromNode":"7e9e2fa0ec995e05","fromSide":"left","toNode":"1ab9e659ece58998","toSide":"right"},
+		{"id":"7ea70ba04afd55ef","fromNode":"7e9e2fa0ec995e05","fromSide":"left","toNode":"03edd9abf60ec4f4","toSide":"left"},
+		{"id":"4abab2c9d5543671","fromNode":"7e9e2fa0ec995e05","fromSide":"left","toNode":"c956e658599906d0","toSide":"left"},
+		{"id":"c0efc2f5a5e4f7b8","fromNode":"7e9e2fa0ec995e05","fromSide":"left","toNode":"d4be11f95f68c4f8","toSide":"left"},
+		{"id":"e1d41f2bea3c5e36","fromNode":"1a3ad552d46841a8","fromSide":"bottom","toNode":"5b0d6a7e354c2caf","toSide":"left"},
+		{"id":"305a9d3854bdc402","fromNode":"5b0d6a7e354c2caf","fromSide":"left","toNode":"d8127094ad8e16e6","toSide":"left"},
+		{"id":"a333164e53323a62","fromNode":"5b0d6a7e354c2caf","fromSide":"left","toNode":"5d49ece5f87b6edb","toSide":"left"},
+		{"id":"fa1942a3bfdcc308","fromNode":"7e9e2fa0ec995e05","fromSide":"bottom","toNode":"4fe18ab577f446cf","toSide":"left"},
+		{"id":"b982428c8778a0f6","fromNode":"7e9e2fa0ec995e05","fromSide":"bottom","toNode":"a908e02fc658db25","toSide":"left"},
+		{"id":"b08f702041c7d126","fromNode":"a302e06565ea4cc7","fromSide":"bottom","toNode":"f3e2859e2fd08015","toSide":"right"},
+		{"id":"5615ec7e420c3bc9","fromNode":"a302e06565ea4cc7","fromSide":"bottom","toNode":"9aeb14bf5c40c400","toSide":"right"},
+		{"id":"6fcb53a46ce24976","fromNode":"a302e06565ea4cc7","fromSide":"bottom","toNode":"1ab9e659ece58998","toSide":"right"},
+		{"id":"cc675e604e6c9786","fromNode":"a302e06565ea4cc7","fromSide":"bottom","toNode":"046bb77a2becbc3f","toSide":"right"},
+		{"id":"cae173008693193f","fromNode":"0bad33ca1edd4363","fromSide":"right","toNode":"e64e82114a53635d","toSide":"left"},
+		{"id":"bbdab4e138a946a6","fromNode":"0bad33ca1edd4363","fromSide":"right","toNode":"f56ea4a6f4793435","toSide":"left"}
+	]
+}
