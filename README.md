@@ -4,6 +4,4 @@
 >
 > 
 
-
-My clone repository
 [Eletromagnetismo II]
